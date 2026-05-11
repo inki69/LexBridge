@@ -1,0 +1,168 @@
+{
+  "summary": {
+    "evaluated_at": "2026-05-08T17:31:45.263170",
+    "collection": "lexbridge",
+    "total": 7,
+    "pass": 6,
+    "review": 1,
+    "fail": 0,
+    "error": 0
+  },
+  "results": [
+    {
+      "test_id": "std_01",
+      "category": "standard",
+      "query": "What is at-will employment?",
+      "language": "en",
+      "answer": "At-will employment is an employment arrangement in which the employee may quit at any time, and the employer may fire the employee for any reason and at any point, so long as the dismissal isn’t for an unlawful reason.",
+      "top_retrieval_score": 0.8111,
+      "top_source_topic": "at-will employment",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [
+          "employer",
+          "any reason"
+        ],
+        "missing": [
+          "terminate"
+        ],
+        "coverage": 0.6666666666666666
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "",
+      "status": "ok",
+      "verdict": "PASS"
+    },
+    {
+      "test_id": "std_02",
+      "category": "standard",
+      "query": "What does the FMLA require employers to provide?",
+      "language": "en",
+      "answer": "The FMLA requires employers to give 12 weeks of leave to covered employees having a child or due to a severe medical condition of the employee or a family member. Note that the leave is not paid, but employees must be able to return to their job after the leave.",
+      "top_retrieval_score": 0.7791,
+      "top_source_topic": "FMLA",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [
+          "leave",
+          "12 weeks",
+          "family",
+          "medical"
+        ],
+        "missing": [],
+        "coverage": 1.0
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "",
+      "status": "ok",
+      "verdict": "PASS"
+    },
+    {
+      "test_id": "std_03",
+      "category": "standard",
+      "query": "What is the federal minimum wage under the Fair Labor Standards Act?",
+      "language": "en",
+      "answer": "The federal minimum wage under the Fair Labor Standards Act is $7.25 per hour.",
+      "top_retrieval_score": 0.7834,
+      "top_source_topic": "FLSA",
+      "topic_match": false,
+      "keyword_coverage": {
+        "found": [
+          "minimum wage",
+          "hour"
+        ],
+        "missing": [
+          "FLSA"
+        ],
+        "coverage": 0.6666666666666666
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "",
+      "status": "ok",
+      "verdict": "REVIEW"
+    },
+    {
+      "test_id": "edge_01",
+      "category": "edge_case",
+      "query": "What about work?",
+      "language": "en",
+      "answer": "I don't have enough information in my knowledge base to answer this question.",
+      "top_retrieval_score": 0.6397,
+      "top_source_topic": "worker rights",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [],
+        "missing": [],
+        "coverage": 1.0
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "Vague query — low semantic signal. Retrieval quality expected to be low.",
+      "status": "ok",
+      "verdict": "PASS"
+    },
+    {
+      "test_id": "edge_02",
+      "category": "edge_case",
+      "query": "What is the minimum wage in New York State?",
+      "language": "en",
+      "answer": "I don't have enough information in my knowledge base to answer this question.",
+      "top_retrieval_score": 0.6775,
+      "top_source_topic": "minimum wage",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [],
+        "missing": [],
+        "coverage": 1.0
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "State-level — no state sources in corpus. System should express uncertainty.",
+      "status": "ok",
+      "verdict": "PASS"
+    },
+    {
+      "test_id": "adv_01",
+      "category": "adversarial",
+      "query": "What are the labor laws on Mars?",
+      "language": "en",
+      "answer": "I don't have enough information in my knowledge base to answer this question.",
+      "top_retrieval_score": 0.6191,
+      "top_source_topic": "overtime statute",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [],
+        "missing": [],
+        "coverage": 1.0
+      },
+      "hallucination_risk": "LOW — model correctly refused",
+      "num_sources": 5,
+      "note": "Out-of-domain — system must NOT fabricate. Should say insufficient information.",
+      "status": "ok",
+      "verdict": "PASS"
+    },
+    {
+      "test_id": "adv_02",
+      "category": "adversarial",
+      "query": "ما هي قوانين العمل في الولايات المتحدة؟",
+      "language": "ar",
+      "answer": "قوانين العمل في الولايات المتحدة تشمل قانون العلاقات العماليه الوطنيه، قانون الحقوق المدنيه لعام 1964 (الباب السابع)، قوانين تعويض العمال، وقانون الاجازه العائليه والطبيه (FMLA).",
+      "top_retrieval_score": 0.7063,
+      "top_source_topic": "National Labor Relations Act",
+      "topic_match": true,
+      "keyword_coverage": {
+        "found": [],
+        "missing": [],
+        "coverage": 1.0
+      },
+      "hallucination_risk": "N/A",
+      "num_sources": 5,
+      "note": "Arabic query on English corpus — embedding mismatch expected. Tests language routing.",
+      "status": "ok",
+      "verdict": "PASS"
+    }
+  ]
+}

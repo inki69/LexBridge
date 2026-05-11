@@ -1,0 +1,69 @@
+<think>
+Okay, I need to translate this U.S. employment law text into Modern Standard Arabic. Let me start by reading through the entire text to understand the context and the key legal terms. The main subject is the National Labor Relations Act (NLRA), so I need to make sure that all specific terms like "NLRA," "ULPs," "NLRB," and others are accurately translated or kept as acronyms where appropriate.
+
+First, the title is "National Labor Relations Act: An Overview." In Arabic, that would be "قانون العلاقات العمالية الوطنية: نظرة عامة." I should check if "National Labor Relations Act" has an official Arabic translation. If not, a direct translation is acceptable. 
+
+Next, the text discusses labor law versus employment law. I need to ensure that terms like "labor law" and "employment law" are correctly translated. "Labor law" is often "قانون العمل" in Arabic, but here it's part of a specific term, so maybe "القانون الخاص بالعلاقات العمالية" to distinguish it. 
+
+The NLRA is codified at 29 U.S.C. §§ 141–191. In Arabic, this would be "مدونة الولايات المتحدة 29 U.S.C. §§ 141–191." I should keep the U.S.C. abbreviation as is since it's a legal reference. 
+
+Terms like "unfair labor practices" should be translated accurately. The standard term is "العمليات غير العادلة في العمل" or "العمليات العمالية غير العادلة." I'll go with the latter to maintain consistency with legal terminology. 
+
+The National Labor Relations Board (NLRB) is mentioned. In Arabic, it's common to keep the acronym and translate the name, so "مجلس العلاقات العمالية الوطنية (NLRB)." 
+
+I need to be careful with phrases like "secret-ballot election" which should be "الاقتراع السري" and "collective bargaining" as "التفاوض الجماعي." 
+
+The text also mentions specific exclusions under the NLRA, such as government or union employers, religious schools, agricultural workers, etc. Each of these needs precise translation. For example, "Religious schools" could be "المدارس الدينية," but the exception mentioned is schools that are largely secular, so "المدارس التي تُعتبر في الغالب علمانية وغير متأثرة بقصد ديني."
+
+I should check for consistency in translating terms throughout the text. For example, "industrial peace" might be "السلامة الصناعية" but I need to confirm if there's a standard term in Arabic legal context. 
+
+The structure of the original text includes sections like "Jurisdiction over Employers and Employees" which should be translated as "صلاحية مجلس العلاقات العمالية الوطنية الوطنية للشركات والعمال." 
+
+I also need to handle the list of excluded employers and employees carefully, ensuring that each item is accurately translated and that the structure (like bullet points) is maintained in a way that's appropriate in Arabic. 
+
+Legal terms like "protected concerted activity" should be translated to "النشاط المشترك المحمى" to convey the legal protection aspect. 
+
+The enforcement mechanism part mentions the General Counsel and regional offices. "General Counsel" can be "المستشار العام" and "regional offices" as "المكاتب الإقليمية." 
+
+I need to ensure that the translation preserves the formal tone of legal documents. Also, dates and references like "Last updated in May of 2023 by the Wex Definitions Team" should be translated accurately, keeping the team name as is but translating the rest: "آخر تحديث في مايو 2023 من قبل فريق تعريفات Wex."
+
+Finally, I'll review the entire translation to check for any inconsistencies, ensure that all legal terms are correctly translated, and that the structure mirrors the original text. It's important that the translation is precise to maintain the legal accuracy of the content.
+</think>
+
+قانون العلاقات العمالية الوطنية: نظرة عامة
+
+يُركز القانون التقليدي الخاص بالنقابات، وهو الجزء الأكبر من مجال القانون المعروف بقانون العمل، على العمال كمجموعة وحقوقهم كمجموعة. ويُمكن التمييز بين هذا الجانب وقانون التوظيف، الذي يركز أكثر على القضايا المتعلقة بحقوق الموظفين الفرديين. يُعتبر قانون العلاقات العمالية الوطنية (NLRA) هو الحجر الأساس في هذا المجال القانوني. يُدون NLRA في مادة 29 U.S.C. §§ 141–191 ويهدف إلى خدمة المصلحة الوطنية للولايات المتحدة فيما يتعلق بالعلاقات العمالية داخل البلاد. كما يُلاحظ خلال فترات الإضرابات الواسعة النطاق، فإن العلاقات المتوترة في هذا المجال قد تؤثر بسرعة وشدة على البلاد بأكملها. السياسة الواضحة المتعلقة بالعمال والإدارة تشجع المصلحة الأفضل للولايات المتحدة، وهي الحفاظ على الإنتاج الاقتصادي الكامل. السلام الصناعي ضروري لاقتصاد يعمل بشكل فعال. يسعى NLRA إلى تقليل النزاعات الصناعية بين أصحاب العمل والعمال والمنظمات العمالية التي قد تعيق الإنتاج الكامل في اقتصاد الولايات المتحدة.
+
+هناك ثلاث مجموعات رئيسية تحت NLRA، حيث تُحدد حقوقها و أدوارها فيما بينها بدقة. من السهل فهم سبب أهمية هذا التحديد الدقيق للأدوار – فهو يسمح لأصحاب العمل والعمال والنقابات العمالية بمعرفة ما يجب توقعه من بعضهم البعض. بالإضافة إلى تحديد وحماية حقوق هذه المجموعات، فإنه يشجع على التفاوض الجماعي ويحظر بعض الممارسات من جانب العمال والإدارة. تُعرف هذه الممارسات باسم العمليات العمالية غير العادلة (ULPs) ويتم التمييز بينها بسبب إمكانية تأثيرها السلبي على الرفاه العام. من خلال NLRA، يُضمن للعمال حق التنظيم وحق التفاوض الجماعي مع أصحاب العمل من خلال ممثليهم المختارين. إذا أرادوا عدم ممارسة هذه الحقوق، يُضمن لهم أيضًا حق الامتناع عنها. يُنشئ NLRA إجراءً يسمح للعمال بممارسة خيارهم سواء انضمامهم إلى نقابة أو عدم انضمامهم من خلال اقتراع سري يُشرف عليه مجلس العلاقات العمالية الوطنية (NLRB). الوقت الذي يمكن فيه إجراء اقتراع سري مقارنة بإجراءات انتخاب أخرى، وما إذا كان ذلك يخضع لتقدير من قبل أصحاب العمل أو المجموعات العمالية، هو موضوع خلاف حالي بين أصحاب العمل والمجموعات العمالية.
+
+لتحديد ما إذا كان قانون العلاقات العمالية الوطنية ينطبق على قضية معينة، ينظر القضاة إلى العوامل التالية: (1) ما إذا كان هناك نزاع عمال يُعرف بموجب NLRA، (2) ما إذا كانت أنشطة صاحب العمل تُعتبر "تجارة" وفقًا للتعريف الوارد في NLRA، (3) أو ما إذا كانت الأنشطة تندرج تحت الأنشطة التي "تؤثر على التجارة" وفقًا لـ NLRA. يمتلك NLRB السلطة على رفض ممارسة الاختصاص إذا كانت الأنشطة عبر الولايات قليلة فقط، وقد يترك حل النزاعات إلى الوكالات الحكومية أو المحلية المناسبة. هذه الوكالات لا يجب أن تتعارض مع سياسات NLRA عند اتخاذ قراراتها.
+
+الاختصاص على أصحاب العمل والعمال
+
+بشكل عام، ينطبق NLRA فقط على من يُمارسون دور أصحاب العمل أو وكلاءهم المباشرين أو غير المباشرين. ومع ذلك، لا يشمل NLRA أصحاب العمل والعمال التاليين:
+
+الجهات الحكومية أو النقابات العمالية. تُستثنى بعض أصحاب العمل بشكل خاص بموجب NLRA: المكاتب الفيدرالية والولائية، مصارف الاحتياطي الفيدرالي، أصحاب العمل الخاضعون لقانون العمل في قطاع السكك الحديدية، والنقابات العمالية ومسؤوليها ووكلائها (ما لم يمارسوا دور أصحاب العمل).
+
+تُستثنى بعض أصحاب العمل بشكل خاص بموجب NLRA: المكاتب الفيدرالية والولائية، مصارف الاحتياطي الفيدرالي، أصحاب العمل الخاضعون لقانون العمل في قطاع السكك الحديدية، والنقابات العمالية ومسؤوليها ووكلائها (ما لم يمارسوا دور أصحاب العمل).
+
+الشركات ذات الوظيفة البلدية. تُستثنى شركة خاصة ذات وظيفة بلدية أساسية من NLRA.
+
+شركة خاصة ذات وظيفة بلدية أساسية تُستثنى من NLRA.
+
+المدارس الدينية. استثناء هنا هو المدارس التي تكون في الغالب علمانية وغير متأثرة بقصد ديني.
+
+استثناء هنا هو المدارس التي تكون في الغالب علمانية وغير متأثرة بقصد ديني.
+
+العمال الزراعيون عندما لا يعملون سوى في الأعمال الزراعية.
+
+الشركات المستقلة في العديد من الحالات.
+
+كان العاملون في مجال الرعاية الصحية مستثنين سابقًا، لكنهم الآن مشملون.
+
+بشكل عام، يشمل NLRA حقوق العمال، مثل حق التنظيم الذاتي والتفاوض الجماعي. كما يحتوي على أحكام تتعلق بمتطلبات اتفاقيات أمن النقابة. بالإضافة إلى ذلك، يشمل حق الإضراب، حق التظاهر، التزامات التفاوض الجماعي، اختيار ممثلي العمال، وتعريف العمليات العمالية غير العادلة. يحتوي NLRA أيضًا على أحكام تحمي ما يُعرف بالنشاط المشترك المحمى: عندما يحتج أو يشكو عاملان أو أكثر معًا بشأن الأجور أو المزايا أو شروط العمل الأخرى.
+
+يحتوي NLRA على آلية إنفاذ مكتوبة. يعتمد على مجلس العلاقات العمالية الوطنية (NLRB) والمستشار العام الذي يعمل من خلال 52 مكتبًا إقليميًا وميدانيًا موزعًا في المدن الرئيسية في جميع أنحاء البلاد. يتحمل المستشار العام وموظفو المكاتب الإقليمية مسؤولية التحقيق وإحالة الشكاوى المتعلقة بالعمليات العمالية غير العادلة. بالإضافة إلى ذلك، يتحملون مسؤولية إجراء الانتخابات لاختيار ممثلي العمال. يتكون المجلس من خمسة أعضاء يُعيّنهم الرئيس بموافقة مجلس الشيوخ لمدة خمس سنوات. يُعتبر عملية التعيين غالبًا ذات طبيعة سياسية عالية. يُصدر المجلس أحكامه في القضايا المتعلقة بالعمليات العمالية غير العادلة. كما يحدد أيضًا قضايا انتخابات التمثيل التي يحصل عليها من المكاتب الإقليمية. تُحدد آلية التنفيذ عبر NLRB في NLRA، بما في ذلك حدود سلطته وقيود هذه السلطات. يشمل NLRA أيضًا إجراءاته وأحكامه في القضايا المتعلقة بالتمثيل، في قضايا العمليات العمالية غير العادلة، في بعض الإجراءات الخاصة بموجب القانون، وأحكامه المتعلقة بتنفيذ أوامر المجلس.
+
+[آخر تحديث في مايو 2023 من قبل فريق تعريفات Wex]
+
+الكلمات المفتاحية: قانون العلاقات العمالية الوطنية، قانون العمل

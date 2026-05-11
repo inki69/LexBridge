@@ -1,0 +1,56 @@
+# ============================================================================
+# LexBridge — docker-compose.yml
+#
+# Start everything:  docker-compose up --build
+# Stop:              docker-compose down
+# ============================================================================
+
+services:
+  # ── MongoDB ───────────────────────────────────────────────────────────────
+  mongodb:
+    image: mongo:7.0
+    container_name: lexbridge-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ── FastAPI RAG Backend ───────────────────────────────────────────────────
+  rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lexbridge-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+    env_file:
+      - docker/.env
+    volumes:
+      - ./data:/data
+
+  # ── Streamlit Frontend ────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: lexbridge-frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - rag-api
+    environment:
+      - API_BASE=http://rag-api:8000
+
+volumes:
+  mongodb_data:
