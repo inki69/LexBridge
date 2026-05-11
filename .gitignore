@@ -214,3 +214,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw data files
+data/**/*.html
+data/**/*.txt
