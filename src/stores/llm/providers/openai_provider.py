@@ -62,11 +62,14 @@ class OpenAIProvider(BaseLLMProvider):
         response = self._embed_with_retry(text)
         return response.data[0].embedding
 
-    def embed_batch(self, texts: List[str]) -> List[List[float]]:
-        response = self._embed_with_retry(texts)
-        # Sort by index to preserve original order (Gemini returns None for index)
-        sorted_data = sorted(response.data, key=lambda x: x.index if x.index is not None else 0)
-        return [item.embedding for item in sorted_data]
+    def embed_batch(self, texts: List[str], batch_size: int = 100) -> List[List[float]]:
+        results = []
+        for i in range(0, len(texts), batch_size):
+            batch = texts[i:i + batch_size]
+            response = self._embed_with_retry(batch)
+            sorted_data = sorted(response.data, key=lambda x: x.index if x.index is not None else 0)
+            results.extend(item.embedding for item in sorted_data)
+        return results
 
     def generate(self, prompt: str, max_tokens: int = None) -> str:
         response = self.client.chat.completions.create(
