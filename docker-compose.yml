@@ -38,6 +38,7 @@ services:
       - docker/.env
     volumes:
       - ./data:/data
+      - qdrant_data:/app/assets/db/qdrant_data
 
   # ── Streamlit Frontend ────────────────────────────────────────────────────
   frontend:
@@ -54,3 +55,4 @@ services:
 
 volumes:
   mongodb_data:
+  qdrant_data:

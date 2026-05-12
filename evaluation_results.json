@@ -1,6 +1,6 @@
 {
   "summary": {
-    "evaluated_at": "2026-05-08T17:31:45.263170",
+    "evaluated_at": "2026-05-12T09:35:26.954502",
     "collection": "lexbridge",
     "total": 7,
     "pass": 6,
@@ -39,8 +39,8 @@
       "category": "standard",
       "query": "What does the FMLA require employers to provide?",
       "language": "en",
-      "answer": "The FMLA requires employers to give 12 weeks of leave to covered employees having a child or due to a severe medical condition of the employee or a family member. Note that the leave is not paid, but employees must be able to return to their job after the leave.",
-      "top_retrieval_score": 0.7791,
+      "answer": "The FMLA requires employers to give 12 weeks of leave to covered employees having a child or due to a severe medical condition of the employee or a family member, and employees must be able to return to their job after the leave. Note that the leave is not paid.",
+      "top_retrieval_score": 0.7652,
       "top_source_topic": "FMLA",
       "topic_match": true,
       "keyword_coverage": {
@@ -90,8 +90,8 @@
       "query": "What about work?",
       "language": "en",
       "answer": "I don't have enough information in my knowledge base to answer this question.",
-      "top_retrieval_score": 0.6397,
-      "top_source_topic": "worker rights",
+      "top_retrieval_score": 0.6283,
+      "top_source_topic": "Title VII unlawful employment practices statute",
       "topic_match": true,
       "keyword_coverage": {
         "found": [],
@@ -149,9 +149,9 @@
       "category": "adversarial",
       "query": "ما هي قوانين العمل في الولايات المتحدة؟",
       "language": "ar",
-      "answer": "قوانين العمل في الولايات المتحدة تشمل قانون العلاقات العماليه الوطنيه، قانون الحقوق المدنيه لعام 1964 (الباب السابع)، قوانين تعويض العمال، وقانون الاجازه العائليه والطبيه (FMLA).",
-      "top_retrieval_score": 0.7063,
-      "top_source_topic": "National Labor Relations Act",
+      "answer": "تشمل قوانين العمل في الولايات المتحدة قوانين التمييز في العمل، وقانون معايير العمل العادل، وقوانين تعويض العمال، وقانون العلاقات العماليه الوطنيه.",
+      "top_retrieval_score": 0.7373,
+      "top_source_topic": "workers compensation",
       "topic_match": true,
       "keyword_coverage": {
         "found": [],
